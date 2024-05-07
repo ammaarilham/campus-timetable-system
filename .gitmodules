@@ -1,3 +1,0 @@
-[submodule "vendor/phpspreadsheet"]
-	path = vendor/phpspreadsheet
-	url = https://github.com/PHPOffice/PhpSpreadsheet.git

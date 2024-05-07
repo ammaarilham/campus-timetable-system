@@ -1,0 +1,334 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.section1 {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(to bottom right, #ffffff, whitesmoke);
+    /* Gradient background */
+    width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow */
+}
+
+.navbar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* White background */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333333;
+    /* Dark text color */
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Font style */
+}
+
+.navbar li:hover {
+    background-color: #f2f2f2;
+    /* Light gray background on hover */
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: whitesmoke;
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left-section {
+    flex: 1;
+    text-align: left;
+}
+
+.right-section {
+    flex: 1;
+    text-align: right;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Timetable styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col {
+    padding: 20px 1px;
+}
+
+.col-panel {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0px;
+}
+
+.col-panel img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.col-panel p {
+    font-size: 13px;
+}
+
+.department-label {
+    font-weight: bold;
+    opacity: .5;
+}
+
+.semester-label {
+    font-weight: bold;
+    opacity: .5;
+}
+
+select {
+    margin-right: 50px;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, .1);
+}
+
+select option {
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+}
+
+
+
+
+.form1 {
+    margin-bottom: 50px;
+}
+
+.submit-button {
+
+    background: white;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    float: right;
+}
+
+.outer-container {
+    padding: 10px;
+    /* Reduce padding */
+    font-size: 0.9rem;
+    /* Further reduce font size */
+    font-weight: bold;
+    text-align: center;
+}
+
+.outer-container .title {
+    font-size: 1.2rem;
+    /* Adjust the font size */
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.inner-container img {
+    max-width: 120px;
+    /* Reduce the maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.college-info h2,
+.college-info h3 {
+    margin: 0;
+}
+
+.timetable-heading {
+    font-size: 1rem;
+    /* Further reduce the font size */
+    margin-top: 8px;
+    /* Reduce the top margin */
+}
+
+.timetable-cell hr {
+    width: 50%;
+    color: #ddd;
+    margin-left: 0;
+}
+
+.entry {}
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        padding: 20px;
+        /* Adjust padding */
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+
+}
+
+.banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.banner h3 {
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.banner .btn-primary {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.banner .btn-primary:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.print-button {
+    background: rgb(0, 0, 0);
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+
+
+}

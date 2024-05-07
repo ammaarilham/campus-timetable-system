@@ -1,0 +1,65 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    width: 90%;
+    margin-bottom: 70px;
+    margin: 5px auto;
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+.popup-message-wrapper {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+}
+
+.popup-message {
+    padding: 12px 10px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 14px;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+
+}
+
+let #closePopup {
+    cursor: pointer;
+    /* font-size: 25px; */
+    ;
+}
+
+.wrapper-timetable {
+    position: relative;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}

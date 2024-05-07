@@ -1,0 +1,219 @@
+body {
+    font-family: "Poppins", arial;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.col1 {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.class-wrapper h1 {
+    font-size: 2rem;
+}
+
+.class-wrapper h2 {
+    font-size: 1rem;
+    color: rgb(76, 76, 76);
+}
+
+.current_class_div {
+    background-color: rgb(17, 255, 176);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.no_current_class_div {
+    background-color: rgb(255, 67, 67);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.upcoming_class_div {
+    background-color: #FFFF99;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.batch-wrapper {
+    background-color: #fbfbfb;
+    height: auto;
+    padding: 10px;
+
+}
+
+.no_current_batch_div {
+    background-color: rgb(255, 67, 67);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.batch-wrapper h2 {
+    font-size: 1.5rem;
+    color: rgb(76, 76, 76);
+}
+
+.student_result_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.student_result_div label {
+    margin-right: 10px;
+}
+
+
+.student_result_div ul li label input {
+    margin-right: 10px;
+}
+
+.attendance_btn {
+    padding: 15px 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.todo-list {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.todo-list h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.todo-list form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todo-list input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.todo-list button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-list button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-list li span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.todo-list li button {
+    padding: 5px 10px;
+    background-color: #f0283c;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.todo-list li button:hover {
+    background-color: #ff1d34;
+}
+
+.suggestion-box-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+
+.suggestion-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+
+.suggestion-box-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.suggestion-form {
+    text-align: center;
+}
+
+.suggestion-textarea {
+    text-decoration: none;
+    border: none;
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
