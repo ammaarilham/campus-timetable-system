@@ -19,6 +19,7 @@ if (mysqli_num_rows($lecturer_result) > 0) {
     // Set the session variable for lecturer username
     $_SESSION['lecturer_username'] = $lecturer_username;
     
+    
     header("Location: lecturer_login.php"); 
     exit();
 } elseif (mysqli_num_rows($admin_result) > 0) {
